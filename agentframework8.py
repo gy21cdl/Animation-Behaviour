@@ -75,8 +75,8 @@ class Agent():
              self.environment[self.y][self.x] -= 10
              self.store += 10  
 
-     #shares agents positions with neighbouring agents
-     def share_with_neighbours(self, neighbourhood):
+    #shares agents positions with neighbouring agents
+    def share_with_neighbours(self, neighbourhood):
          """
          Parameters
          ----------
